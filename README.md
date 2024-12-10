@@ -1,6 +1,6 @@
 # Create Block Templates
 
-A collection of templates for creating WordPress blocks and Editor extensions. These templates are designed to work with the [`create-block`](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-create-block/) tool and were built to simulate templates you might create for your own projects (in this case @ndiego). However, feel free to use them or modify the templates as you see fit.
+A collection of templates for creating WordPress blocks and Editor extensions. These templates are designed to work with the [`create-block`](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-create-block/) tool and were built to simulate templates you might create for your own projects (in this case [Nick Diego](https://github.com/ndiego)). However, feel free to use them or modify the templates as you see fit.
 
 ## Usage
 
