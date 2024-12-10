@@ -1,0 +1,35 @@
+<?php
+/**
+ * Plugin Name:       {{title}}
+ * Plugin URI:        {{{pluginURI}}}
+ * Description:       {{description}}
+ * Requires at least: 6.6
+ * Requires PHP:      7.4
+ * Version:           {{version}}
+ * Author:            {{author}}
+ * License:           GPL-2.0-or-later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:       {{textdomain}}
+ * Domain Path:       /languages
+ *
+ * @package           {{slug}}
+ */
+
+namespace {{slugPascalCase}};
+
+defined( 'ABSPATH' ) || exit;
+
+/**
+ * Registers the block using the metadata loaded from the `block.json` file.
+ *
+ * @since 0.1.0
+ *
+ * @return void
+ */
+function block_init() {
+	register_block_type( __DIR__ . '/build' );
+
+	// Load available translations.
+	wp_set_script_translations( '{{namespace}}-{{slug}}-editor-script-js', '{{textdomain}}' );
+}
+add_action( 'init', __NAMESPACE__ . '\block_init' );
