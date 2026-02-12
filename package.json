@@ -11,7 +11,7 @@
   "author": "Nick Diego",
   "license": "GPL-2.0-or-later",
   "dependencies": {
-    "@wordpress/scripts": "^26.0.0",
+    "@wordpress/scripts": "^31.4.0",
     "mustache": "^4.2.0"
   }
-} 
+}
